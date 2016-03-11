@@ -1,0 +1,11 @@
+[package]
+name = "gedcomx2edtf"
+version = "0.0.1"
+authors = ["Nicolas Barbotte <nicolas@barbotte.net>"]
+
+[dependencies]
+gedcomx_date = "0.0.1"
+
+[lib]
+name = "convert"
+crate-type = ["dylib"]
