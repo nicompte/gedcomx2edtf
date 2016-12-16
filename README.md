@@ -4,9 +4,9 @@ GedcomxDate to edtf converter.
 
 ## setup
 
-Install a rust compiler (with [multirust](https://github.com/brson/multirust)):
+Install a rust compiler (with [rustup](https://rustup.rs)):
 ```bash
-curl -sf https://raw.githubusercontent.com/brson/multirust/master/quick-install.sh | sh
+curl https://sh.rustup.rs -sSf | sh
 ```
 And build
 ```bash
